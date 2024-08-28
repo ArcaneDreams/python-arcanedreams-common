@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-arcanedreams-common"
+version = "0.1.0"
+description = ""
+authors = ["Arcane Dreams <github@arcanedreams.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.8.0"
+rich-click = "^1.8.3"
+click = "^8.1.7"
+boto3 = "^1.35.7"
+keyring = "^25.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

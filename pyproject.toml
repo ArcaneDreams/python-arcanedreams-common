@@ -4,6 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Arcane Dreams <github@arcanedreams.com>"]
 readme = "README.md"
+packages = [
+    { include = "python_arcanedreams_common" },
+    { include = "python_arcanedreams_common_tests" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"

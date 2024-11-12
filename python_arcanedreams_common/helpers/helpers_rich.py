@@ -1,4 +1,4 @@
-from rich.console import Console
+from rich.console import Console, RenderableType
 
 _package_console: None | Console = None
 
@@ -10,7 +10,7 @@ def get_package_console() -> Console:
     return Console(highlight=False, log_time=False, log_path=False)
 
 
-def get_rich_rendered_output(renderable_element) -> str:
+def get_rich_rendered_output(renderable_element: "RenderableType") -> str:
     """
 
     :param renderable_element:
